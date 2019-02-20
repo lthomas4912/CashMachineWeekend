@@ -15,4 +15,5 @@ public class PremiumAccount extends Account {
     protected boolean canWithdraw(int amount) {
         return getBalance() + OVERDRAFT_LIMIT >= amount;
     }
+
 }

@@ -49,7 +49,7 @@ public class CashMachineApp extends Application {
             areaInfo.setText(cashMachine.toString());
         });
 
-        Button btnExit = new Button("Exit");
+        Button btnExit = new Button("Log Out");
         btnExit.setOnAction(e -> {
             cashMachine.exit();
 
